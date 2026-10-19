@@ -1,0 +1,23 @@
+/target
+/dist
+/backups
+
+# Local logs and test output
+*.log
+*_log.txt
+experiment_log*
+profile_write_log*
+feature_info_log*
+gpx-gui-debug.log
+probe_output.txt
+probe2_output.txt
+probe3_output.txt
+
+# Local settings (copies must never be published)
+settings.txt
+*settings.txt
+
+# Local scaffolding
+NEEDS_USER.md
+__pycache__/
+*.pyc
