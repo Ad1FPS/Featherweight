@@ -1,3 +1,5 @@
+![Featherweight](assets/banner.png)
+
 # Featherweight
 
 A tiny, no-telemetry Windows tool for the Logitech G Pro X Superlight 2 (Lightspeed), as a G HUB alternative.
@@ -8,9 +10,15 @@ A tiny, no-telemetry Windows tool for the Logitech G Pro X Superlight 2 (Lightsp
 > writes to the mouse's onboard memory (a backup is made before every write). Not affiliated with or
 > endorsed by Logitech.
 
-![Featherweight main view](assets/preview/gui-dark.png)
+<p align="center">
+  <img src="assets/preview/gui-dark.png" width="340" alt="Main window">
+  &nbsp;
+  <img src="assets/preview/settings-dark.png" width="340" alt="Settings">
+</p>
 
-![Featherweight settings view](assets/preview/settings-dark.png)
+### Tray icon
+The tray icon shows the battery level live (it drains from the left and turns red below 15%). Hover it for battery, DPI and polling rate:
+<p align="center"><img src="assets/preview/tray.png" width="486" alt="Tray icon with tooltip"></p>
 
 ## Features
 
