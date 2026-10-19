@@ -98,6 +98,16 @@ The executables are written to:
 - `target\release\featherweight.exe` — the GUI/tray app
 - `target\release\gpx-tool.exe` — the command-line tool
 
+## How this was made
+
+Featherweight was built as an AI-assisted project:
+
+- **Ad1FPS** (project author) - idea, creative direction, design decisions, and all testing on real hardware.
+- **Claude (Anthropic; Sonnet 5.5 and Opus 5.5)** - planning, HID++ protocol research, session prompts, reviewing results, and the banner/icon design.
+- **DeepSeek V4.1 Flash (via OpenCode)** - wrote the Rust code.
+
+Every feature was verified on a real PRO X SUPERLIGHT 2, but the code has not been reviewed line-by-line by an experienced Rust developer. Bug reports and pull requests are welcome.
+
 ## Credits
 
 The HID++ protocol documentation and research from
